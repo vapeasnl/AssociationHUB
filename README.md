@@ -1,7 +1,9 @@
 # AssociationHUB
 
 AssociationHUB is a web application designed to help manage and organize the activities of an association. This application allows administrators to manage users, events, news, achievements, and more. Members of the association can view upcoming events, news updates, and other relevant information.
-![Screenshot](app/assets/firefox_FliBDCEIvP.png?raw=true "Optional Title")
+
+
+![Screenshot](app/assets/firefox_FliBDCEIvP.png?raw=true "Screenshot")
 
 ## Features
 
