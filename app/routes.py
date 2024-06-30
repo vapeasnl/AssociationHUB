@@ -494,22 +494,22 @@ def create_user():
     password = request.form.get('password')
     is_admin = request.form.get('is_admin') == 'on'
     section = request.args.get('section', 'users')
-    # Vérification des champs requis
+    # Checking required fields
     if not username or not email or not password:
         flash('Username, email, and password are required fields.', 'error')
         return redirect(url_for('admin.dashboard', section='users'))
 
-    # Vérification de l'unicité de l'email
+    # Checking the uniqueness of the email
     existing_user = User.query.filter_by(email=email).first()
     if existing_user:
         flash('Email address is already in use. Please use a different email.', 'error')
         return redirect(url_for('admin.dashboard', section='users'))
 
-    # Création du nouvel utilisateur
+    # Creation of the new user
     new_user = User(username=username, email=email, is_admin=is_admin)
     new_user.set_password(password)
     
-    # Ajout à la base de données
+    # Add to database
     db.session.add(new_user)
     db.session.commit()
 
