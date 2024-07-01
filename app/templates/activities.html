@@ -1,6 +1,41 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>Our activities</h1>
-    <p>Discover the different activities and programs organized by our association.</p>
+    <div class="container my-5">
+        <h1 class="mb-4">Our Activities</h1>
+        <p class="mb-4">Discover the different activities and programs organized by our association.</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="static/img/activity1.jpg" class="card-img-top" alt="Activity 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Clean Water Initiative</h5>
+                        <p class="card-text">Our clean water initiative aims to provide access to safe and clean drinking water in underprivileged communities. We install water filtration systems and educate locals on the importance of clean water.</p>
+                        <a href="https://www.cleanwater.org" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="static/img/activity2.jpg" class="card-img-top" alt="Activity 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Tree Planting Campaign</h5>
+                        <p class="card-text">Join our tree planting campaign to help combat deforestation and promote a greener planet. We organize community events where volunteers can plant trees in local parks and forests.</p>
+                        <a href="https://www.treeplanting.org" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="static/img/activity3.jpg" class="card-img-top" alt="Activity 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Youth Education Program</h5>
+                        <p class="card-text">Our youth education program focuses on providing quality education and vocational training to children and young adults in disadvantaged areas. We aim to empower the next generation with the skills they need to succeed.</p>
+                        <a href="https://www.youtheducation.org" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
