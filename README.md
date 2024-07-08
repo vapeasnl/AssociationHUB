@@ -19,7 +19,7 @@ AssociationHUB is a web application designed to help manage and organize the act
   - [Admin Panel](#admin-panel)
   - [User Interaction](#user-interaction)
 - [Contributing](#contributing)
-  - [Examples of Route Layout](#examples-of-route-layout)
+  - [Route Examples](#route-examples)
   - [Small Explanation](#small-explanation)
 - [Video Demo](#video-demo)
 - [License](#license)
@@ -92,7 +92,7 @@ Users can view the list of events, news updates, achievements, and contact the a
 
 ## Contributing
 
-### Exemples of route layout
+### Route Exemples
 
 ```python
 # User routes
@@ -148,7 +148,7 @@ def create_user():
 
 [![YoutubeDemo](https://img.youtube.com/vi/gAOxDsZ9lU4/0.jpg)](https://www.youtube.com/watch?v=gAOxDsZ9lU4)
 
-*Note: You can open the video in a new tab by right-clicking the link and selecting "Open link in new tab" or by middle-clicking the link.*
+*Note: You will leave this page if you click the picture.*
 
 ## License
 
