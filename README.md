@@ -6,6 +6,24 @@ AssociationHUB is a web application designed to help manage and organize the act
 ![Screenshot](app/assets/0.png?raw=true "Screenshot")
 [AssociationHUB](https://sa030.pythonanywhere.com) - *Live Demo of the website*
 
+## Table of Contents
+
+- [Introduction](#associationhub)
+- [Story](#story)
+- [Features](#features)
+- [Tech Used](#tech-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Admin Panel](#admin-panel)
+  - [User Interaction](#user-interaction)
+- [Contributing](#contributing)
+  - [Examples of Route Layout](#examples-of-route-layout)
+  - [Small Explanation](#small-explanation)
+- [Video Demo](#video-demo)
+- [License](#license)
+
 ## Story
 
 We met with a local community association to explore potential projects.
