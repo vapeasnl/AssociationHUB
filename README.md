@@ -129,6 +129,7 @@ def create_user():
 ## Video Demo
 
 [![YoutubeDemo](https://img.youtube.com/vi/gAOxDsZ9lU4/0.jpg)](https://www.youtube.com/watch?v=gAOxDsZ9lU4)
+*Note: You can open the video in a new tab by right-clicking the link and selecting "Open link in new tab" or by middle-clicking the link.*
 
 ## License
 
