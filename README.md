@@ -60,7 +60,7 @@ Follow these instructions to set up and run the AssociationHUB application on yo
 
 8. Access the application at `http://127.0.0.1:5000`.
 
-*note that deploying to PythonAnywhere need some extra tweaks more info [here](https://help.pythonanywhere.com/pages/Flask/)*
+*Note: Deploying to PythonAnywhere need some extra tweaks, more info [here](https://help.pythonanywhere.com/pages/Flask/)*
 
 ## Usage
 
